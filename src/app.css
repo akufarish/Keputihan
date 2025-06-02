@@ -1,3 +1,9 @@
-@import 'tailwindcss';
-@plugin '@tailwindcss/forms';
+@import "tailwindcss";
+/* @plugin '@tailwindcss/forms'; */
 @plugin '@tailwindcss/typography';
+@plugin "@iconify/tailwind4";
+
+@theme {
+  --color-primary: #222831;
+  --color-secondary: #393e46;
+}
